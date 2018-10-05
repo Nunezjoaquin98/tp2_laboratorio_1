@@ -102,9 +102,9 @@ int addEmployee(eEmployee list[], int len)
                 system("cls");
 
             }
-            else if(!function_getStringNumeros("Ingrese el salario: ",auxSalary))
+            else if(!function_getStringNumeros("Ingrese el salario: ",auxSalary) && auxSalary > 0)
             {
-                printf("Error el salario debe tener solo numeros.\n\n");
+                printf("**** Error ****\n\n");
                 system("pause");
                 system("cls");
 

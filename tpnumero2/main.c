@@ -18,7 +18,7 @@
 #include "ArrayEmployees.h"
 #include "funciones.h"
 
-#define SIZE 100 // se define SIZE para utilizar como tamaño del array employee que se declarara mas abajo
+#define SIZE 1000 // se define SIZE para utilizar como tamaño del array employee que se declarara mas abajo
 int menu();
 int searchEmpty(eEmployee lista[],int tam);
 
